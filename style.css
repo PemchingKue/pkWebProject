@@ -1,0 +1,88 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    padding: 1em;
+    color: white;
+	background-image: url("images/logo.jpg");
+	background-repeat: repeat-y;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}   
+footer ul a {
+    text-decoration: none;
+	color: white;
+}
+footer a:hover { color: green; }
+footer li {display: inline;}
+
+#nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}   
+#nav ul a {
+    text-decoration: none;
+	color: black;
+}
+#nav a:hover { color: green; }
+
+#content {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+#content2 {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+#video {
+	float:left;
+	width:auto;
+	margin-right:14px;
+}
+
+label {
+	float: left;
+	text-align: right;
+	width: 120px;
+	padding-right: 11px;
+}
+
+input{
+	display: inline;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: inline;
+	margin-bottom: 20px;
+}
+
+#mySubmit {
+	margin-left: 130px;
+}
